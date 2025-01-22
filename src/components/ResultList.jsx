@@ -8,7 +8,7 @@ const ResultList = ({ users }) => {
   }
 
   return (
-    <div className="grid gap-10 py-5 sm:grid-cols-1 font-Parkinsans md:grid-cols-2 lg:grid-cols-3" style={{marginLeft:"250px"}}>
+    <div className="grid gap-10 py-5 sm:grid-cols-1 font-Parkinsans md:grid-cols-2 lg:grid-cols-3" >
       {users.map((account) => (
         <div
           key={account.id}
