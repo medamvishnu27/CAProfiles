@@ -21,7 +21,7 @@ const Home = () => {
             <h2 className="text-4xl font-extralight text-center mb-10 text-white">What We Offer</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
               <div className="p-6 border rounded-lg bg-blue-50 shadow-md hover:shadow-lg transition-shadow">
-                <FontAwesomeIcon icon={faCheck} className="text-6xl text-green-600 mb-4 "  />
+                <FontAwesomeIcon icon={faCheck} className="text-6xl text-green-600 mb-4 " style={{marginLeft:"100px"}}   />
                 <h3 className="text-xl font-semibold  text-center">Verified Accountants</h3>
                 <p>All accountants are certified and reviewed for trust and reliability.</p>
               </div>
