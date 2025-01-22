@@ -4,7 +4,7 @@ import "./styles/custom.css"; // Importing custom styles
 import Home from './components/Home';
 import Navbar from "./components/Navbar";
 import DetailsPage from "./pages/DetailsPage";
-import ContactUs from './Pages/ContactUs';
+import ContactUs from "./components/ContactUs";
 import Accountes from './Pages/Accountes';
 import Footer from "./components/Footer";
 
