@@ -1,0 +1,27 @@
+/* Custom styles for the application */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8fafc; /* Light background */
+}
+
+h1, h2, h3 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.card {
+  transition: transform 0.3s; /* Smooth hover effect */
+  margin-left: 100px;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.button {
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.button:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
