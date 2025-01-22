@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUsers, faClock, faCheck } from '@fortawesome/free-solid-svg-icons';
-import contacticon from "./src/ass./src/assets/contactus.webp";
+import contacticon from "../assets/contactus.webp";
 
 const ContactUs = () => {
   return (
