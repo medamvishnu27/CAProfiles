@@ -26,17 +26,17 @@ const Home = () => {
                 <p>All accountants are certified and reviewed for trust and reliability.</p>
               </div>
               <div className="p-6 border rounded-lg bg-blue-50 shadow-md hover:shadow-lg transition-shadow">
-                <FontAwesomeIcon icon={faSearch} className="text-6xl text-blue-600 mb-4"  />
+                <FontAwesomeIcon icon={faSearch} className="text-6xl text-blue-600 mb-4" style={{marginLeft:"100px"}}   />
                 <h3 className="text-xl font-semibold  text-center">Comprehensive Search</h3>
                 <p>Easily find and filter accountants based on your specific needs.</p>
               </div>
               <div className="p-6 border rounded-lg bg-blue-50 shadow-md hover:shadow-lg transition-shadow">
-                <FontAwesomeIcon icon={faUsers} className="text-6xl text-red-600 mb-4"  />
+                <FontAwesomeIcon icon={faUsers} className="text-6xl text-red-600 mb-4" style={{marginLeft:"100px"}}   />
                 <h3 className="text-xl font-semibold  text-center">Detailed Profiles</h3>
                 <p>Access complete information about each accountant.</p>
               </div>
               <div className="p-6 border rounded-lg bg-blue-50 shadow-md hover:shadow-lg transition-shadow">
-                <FontAwesomeIcon icon={faClock} className="text-6xl mb-4"   />
+                <FontAwesomeIcon icon={faClock} className="text-6xl mb-4"  style={{marginLeft:"100px"}}   />
                 <h3 className="text-xl font-semibold text-center">24/7 Support</h3>
                 <p>Get assistance anytime with our responsive support team.</p>
               </div>
