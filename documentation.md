@@ -32,12 +32,17 @@ The Chartered Accountants Finder is a web application designed to assist users i
    ```bash
    npm run dev
    ```
+5. **Create a Production Build** (for deployment):
+   ```bash
+   npm run build
+   ```
 
 ## Deployment Instructions
 - **Vercel**:
   1. Sign up or log in to [Vercel](https://vercel.com/).
   2. Click on "New Project" and import your GitHub repository.
-  3. Click "Deploy".
+  3. Ensure that all imports in your application are correct to avoid errors during deployment.
+  4. Click "Deploy".
 
 - **Netlify**:
   1. Sign up or log in to [Netlify](https://www.netlify.com/).
