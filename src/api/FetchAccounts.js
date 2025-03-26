@@ -1,7 +1,7 @@
 // api.js
 import axios from "axios";
 
- const baseURL = "http://localhost:4000/Accounts"
+ const baseURL = "https://caprofiles.onrender.com"
 
  export const fetchAccountants = async () => {
   try {
