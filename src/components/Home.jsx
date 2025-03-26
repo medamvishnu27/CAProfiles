@@ -36,7 +36,9 @@ const Home = () => {
                 <p>Access complete information about each accountant.</p>
               </div>
               <div className="p-6 border rounded-lg bg-blue-50 shadow-md hover:shadow-lg transition-shadow">
-                <FontAwesomeIcon icon={faClock} className="text-6xl mb-4"  style={{marginLeft:"100px"}}   />
+               
+                FontAwesomeIcon icon={faClock} className="text-6xl mb-4"  style={{marginLeft:"100px"}}   />
+
                 <h3 className="text-xl font-semibold text-center">24/7 Support</h3>
                 <p>Get assistance anytime with our responsive support team.</p>
               </div>
